@@ -1,5 +1,8 @@
 :root {
   --color-primary: hsl(10, 69%, 49%);
+
+  --fw-normal: 300;
+  --fw-bold: 600;
 }
 
 html,
@@ -8,6 +11,7 @@ body {
   margin: 0;
   font-family: 'Nunito', sans-serif;
   font-size: 1rem;
+  font-weight: var(--fw-normal);
 }
 
 a {
@@ -17,6 +21,10 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, b, strong {
+  font-weight: var(--fw-bold);
 }
 
 /* @media (prefers-color-scheme: dark) {

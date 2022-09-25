@@ -1,0 +1,21 @@
+.header {
+  background-color: var(--color-primary);
+}
+
+.menu {
+  li {
+    a {
+      font-size: 1.3rem;
+      transition: all 200ms ease-in-out;
+
+
+      &:hover {
+        opacity: .7;
+      }
+    }
+  }
+}
+
+.navbar {
+  background-color: var(--bs-gray-300);
+}
